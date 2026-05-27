@@ -1,4 +1,4 @@
-# Skills Directory
+# Data Engineering Skills Directory
 
 Claude Code skill modules for data engineering work. Each skill activates automatically when a relevant task is detected, or you can reference it by name in your prompt.
 
