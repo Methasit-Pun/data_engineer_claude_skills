@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "data-engineer-skills",
+  "description": "Claude Code skills covering the full data engineering lifecycle, from sourcing to reporting.",
+  "owner": {
+    "name": "Methasit-Pun",
+    "email": "methasitpun@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "data-engineer-skills",
+      "source": "./",
+      "strict": false,
+      "description": "Claude Code skills for the full data engineering lifecycle: sourcing, profiling, modeling, architecture, ETL build, reliability, ML delivery, code quality, and routine reporting.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Methasit-Pun"
+      },
+      "homepage": "https://github.com/Methasit-Pun/data_engineer_claude_skills",
+      "repository": "https://github.com/Methasit-Pun/data_engineer_claude_skills",
+      "keywords": ["data-engineering", "etl", "sql", "dbt", "data-modeling", "data-quality"],
+      "skills": [
+        "./00-start-here/data-lifecycle",
+        "./01-sourcing/data-sourcing",
+        "./02-profiling/data-profiling",
+        "./03-modeling/data-modeling",
+        "./03-modeling/dbt-patterns",
+        "./03-modeling/python-data-patterns",
+        "./03-modeling/schema-design",
+        "./03-modeling/sql-patterns",
+        "./04-architecture/cloud-data-infra",
+        "./04-architecture/cloud-infra-data",
+        "./04-architecture/cost-optimization-data",
+        "./04-architecture/data-architecture",
+        "./05-etl-build/data-migration",
+        "./05-etl-build/data-pipelines",
+        "./05-etl-build/medallion-design",
+        "./05-etl-build/orchestration-patterns",
+        "./05-etl-build/pipeline-design",
+        "./05-etl-build/streaming-patterns",
+        "./06-reliability/data-contracts",
+        "./06-reliability/data-governance",
+        "./06-reliability/data-quality",
+        "./06-reliability/data-reliability",
+        "./07-ml-delivery/ml-feature-engineering",
+        "./08-code-quality/notebook-refactor",
+        "./09-routine/stakeholder-reporting",
+        "./_backend/api-design",
+        "./_backend/backend-patterns",
+        "./_tooling/agent-sort",
+        "./_tooling/skill-creator"
+      ]
+    }
+  ]
+}

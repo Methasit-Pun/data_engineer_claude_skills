@@ -6,6 +6,35 @@ Claude Code skill modules for data engineering work, organized by **stage of the
 
 ---
 
+## Install (all skills, one command)
+
+This repo is a Claude Code **plugin marketplace** — no manual copying into `.claude/skills` required.
+
+```shell
+/plugin marketplace add Methasit-Pun/data_engineer_claude_skills
+/plugin install data-engineer-skills@data-engineer-skills
+/reload-plugins
+```
+
+That's it — every skill below is now available in any project, auto-invoked by Claude based on task context (or call one directly, e.g. `/data-engineer-skills:data-lifecycle`).
+
+To update later: `/plugin marketplace update data-engineer-skills`. To remove: `/plugin uninstall data-engineer-skills@data-engineer-skills`.
+
+Requires a recent Claude Code CLI (v2.1.190+ recommended — `claude --version`, update with `npm install -g @anthropic-ai/claude-code@latest`). On older versions the plugin installs but shows 0 skills.
+
+<details>
+<summary>Prefer the old manual copy instead?</summary>
+
+Clone the repo and copy individual skill folders into `.claude/skills/` (project) or `~/.claude/skills/` (user-wide), e.g.:
+
+```shell
+cp -r 05-etl-build/medallion-design ~/.claude/skills/
+```
+
+</details>
+
+---
+
 ## The lifecycle
 
 ```
